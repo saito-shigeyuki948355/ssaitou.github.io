@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8" />
+        <title>Jess - Responsive Bootstrap 4 Personal Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+        <meta content="" name="author" />
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- CSS Files
+    ================================================== -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- color scheme -->
+        <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+        <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div class="page-overlay">
+                <div class="preloader-wrap">
+                    <div class="spinner">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- header begin -->
+            <header class="header-light transparent scroll-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-between">
+                                <div class="align-self-center header-col-left">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            齋藤 繁礼
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                                <div class="align-self-center ml-auto header-col-mid">
+                                    <!-- mainmenu begin -->
+                                    <ul id="mainmenu" class="scrollnav">
+                                        <li><a href="#section-hero" class="active">Home</a></li>
+                                        <li></li>
+                                        <li><a href="#section-about">About</a></li>
+                                        <li></li>
+                                        <li><a href="#section-services">Project</a></li>
+                                        <li></li>
+                                        <li><a href="#section-portfolio">Portfolio</a></li>
+                                        <li></li>
+                                        <li><a href="#section-blog">Blog</a></li>
+                                        <li></li>
+                                        <li><a href="#section-contact">Contact</a></li>
+                                        <li></li>
+                                    </ul>
+
+                                    <!-- mainmenu close -->
+                                </div>
+                                <div class="align-self-center ml-auto header-col-right">
+                                    <div class="social-icons">
+                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                                    </div>
+
+                                    <span id="menu-btn"></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header close -->
+            <!-- content begin -->
+            <div class="no-bottom no-top" id="content">
+                <div id="top"></div>
+
+                <section id="section-hero" class="vertical-center custom-1" data-bgimage="url(images/background/1.jpg) top" data-stellar-background-ratio=".5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 offset-lg-7">
+                                <h1 class="wow fadeInUp" data-wow-delay=".5s">齋藤　繁礼です。</h1>
+                                <p class="lead wow fadeInUp" data-wow-delay=".75s">私の経歴を紹介します。</p>
+                                <div class="spacer-20"></div>
+                                <a class="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" href="#section-about">About Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-about">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mb-sm-30 text-center">
+                                <div class="de-images">
+                                    <img class="di-small-2 wow fadeInLeft" src="images/misc/3.jpg" alt="" />
+                                    <img class="img-fluid wow fadeInRight" src="images/misc/1.jpg" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
+                                <h2>About <span class="id-color">Me</span></h2>
+                                <p>
+                                    1994年8月生まれ、東京都在住。
+                                    IT業界で7年間の経験があり、主にJavaやMySQL、JSPを用いたWebシステム開発、テスト設計、品質管理など幅広い業務に従事してきました。直近ではServiceNowを用いた運用改善やシステム保守にも携わり、チーム内の調整役や後輩のサポートも行っています。
+                                    2025年よりフリーランスとして活動を開始。現在はReactやWordPressなどフロントエンド技術の学習にも取り組みつつ、使いやすさと品質にこだわったシステム開発を目指しています。
+                                </p>
+                                <div class="spacer-10"></div>
+                                <span id="btn-show-skills" class="btn-border wow fadeInUp" data-wow-delay="1s">使用可能言語</span>
+                            </div>
+                        </div>
+
+                        <div id="skills" class="row">
+                            <div class="spacer-double"></div>
+                            <div class="spacer-double"></div>
+                            <div class="col-md-4">
+                                <div class="skill-bar style-2">
+                                    <h5>Java</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="80%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar style-2">
+                                    <h5>SQL</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="skill-bar style-2">
+                                    <h5>Scala</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="60%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar style-2">
+                                    <h5>C++</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="skill-bar style-2">
+                                    <h5>JavaScript</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="70%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar style-2">
+                                    <h5>PHP</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-services" class="text-light" data-bgcolor="#008477">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Participated Project</h2>
+                                    <p>経験プロジェクトについてご紹介します。</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay="0s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-laptop id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>契約管理システム統合に伴う新規システム開発</h4>
+                                        <p>契約管理システム統合に伴う新規開発でJavaによる実装・試験対応を担当し、既存仕様を踏まえた共通機能開発と不具合修正に従事。</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".25s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-check-square-o id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>料金明細システムの保守・運用支援開発</h4>
+                                        <p>運用関連機能の保守・追加開発として、DB設計書更新や障害対応、バッチ処理の最適化を通じ品質改善に貢献。</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".5s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa fa-bar-chart id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>販売管理システム（本体）の開発・保守</h4>
+                                        <p>テストリーダーとして試験設計から実施・進捗管理・不具合分析を一貫して担い、ServiceNow基幹システム導入の品質向上を支援。</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay="0s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-folder-o id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>会計基幹系システムの次期システム開発</h4>
+                                        <p>商品販売管理システムの新規開発と運用保守で、業務処理設計・実装から障害対応・品質改善までを担当し安定運用に寄与。</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".25s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-keyboard-o id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>行政システムのサーバ更改</h4>
+                                        <p>行政システムの更改設計において基幹業務の再構築・業務移行を支援し、設計・試験工程を通じて品質確保に貢献。</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".5s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa fa-bar-chart id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>販売管理システム（グループ）の開発・保守</h4>
+                                        <p>本体分参画時の知見を活かして結合試験の品質管理を主導し、試験進行・不具合分析を通じServiceNow環境でのテスト精度向上に貢献。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-cta">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 text-center">
+                                <h2>I Am Available For Freelance</h2>
+                                <div class="spacer-10"></div>
+                                <a href="#" class="btn-custom">Hire Me Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- section begin -->
+                <section id="section-testimonial" class="custom-1" data-bgcolor="#D1F3E5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Testimonials</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2">
+                                <div id="testimonial-carousel-single" class="owl-carousel owl-theme wow fadeInUp">
+                                    <blockquote class="testimonial-big">
+                                        <img src="images/people/1.jpg" alt="" />
+                                        I'm always impressed with the services. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip.
+
+                                        <span class="name">John, Customer</span>
+                                    </blockquote>
+
+                                    <blockquote class="testimonial-big">
+                                        <img src="images/people/2.jpg" alt="" />
+                                        I'm always impressed with the services. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip.
+
+                                        <span class="name">Sandra, Customer</span>
+                                    </blockquote>
+
+                                    <blockquote class="testimonial-big">
+                                        <img src="images/people/3.jpg" alt="" />
+                                        I'm always impressed with the services. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip.
+
+                                        <span class="name">Michael, Customer</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- section close -->
+
+                <!-- section begin -->
+                <section id="section-portfolio">
+                    <div class="container">
+                        <!-- portfolio filter begin -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h5><span class="id-color">Portfolio</span></h5>
+                                <h2>I Love What I Do</h2>
+                            </div>
+
+                            <div class="spacer-single"></div>
+
+                            <div class="col-md-12 text-center">
+                                <ul id="filters">
+                                    <li><a href="#" data-filter="*" class="selected">all projects</a></li>
+                                    <li><a href="#" data-filter=".illustration">illustration</a></li>
+                                    <li><a href="#" data-filter=".mobile">mobile</a></li>
+                                    <li><a href="#" data-filter=".photography">photography</a></li>
+                                    <li><a href="#" data-filter=".website">website</a></li>
+                                </ul>
+
+                                <div id="gallery" class="gallery full-gallery de-gallery pf_full_width pf_3_cols grid sequence">
+                                    <!-- gallery item -->
+                                    <div class="item illustration website gallery-item pf-click" data-value="project-details-image.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Multi Images</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/1.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <!-- close gallery item -->
+
+                                    <!-- gallery item -->
+                                    <div class="item photography gallery-item pf-click" data-value="project-details-slider.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Slider Images</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/2.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <!-- close gallery item -->
+
+                                    <!-- gallery item -->
+                                    <div class="item illustration gallery-item pf-click" data-value="project-details-youtube.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Youtube Video</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/3.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <!-- close gallery item -->
+
+                                    <!-- gallery item -->
+                                    <div class="item photography illustration mobile gallery-item pf-click" data-value="project-details-image-big.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Multi Images Big</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/4.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <!-- close gallery item -->
+
+                                    <!-- gallery item -->
+                                    <div class="item photography mobile website gallery-item pf-click" data-value="project-details-slider-big.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Slider Images Big</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/5.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <!-- close gallery item -->
+
+                                    <!-- gallery item -->
+                                    <div class="item mobile website gallery-item pf-click" data-value="project-details-youtube-big.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Youtube Video Big</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/6.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <!-- close gallery item -->
+                                    <!-- gallery item（クリックトリガー） -->
+                                    <div class="item testing gallery-item pf-click" onclick="toggleDetail('gaia-detail')">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">GAIA.fin Test Leader</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio/sample.jpg" alt="GAIA.fin Project" />
+                                        </div>
+                                    </div>
+                             </div>
+                            <!-- アコーディオン詳細（itemの直後） -->
+                            <div id="gaia-detail" class="project-detail" style="display:none; padding:20px; border:1px solid #ddd; background-color:#f9f9f9; width:100%; pointer-events: auto !important;margin-top: 15px;opacity: 1 !important; visibility: visible !important; transform: none !important;">
+                                <h4>GAIA.fin 会計基幹系システム テストリーダー</h4>
+                                 <ul>
+                                    <li>大規模ローコード開発環境（ServiceNow App Engine）での品質管理を推進</li>
+                                    <li>結合試験・単体試験の設計〜実施、進捗管理・不具合分析まで一貫対応</li>
+                                    <li>チームのタスク割り振り、エビデンス管理、品質レポート作成も担当</li>
+                                    <li>再参画時には過去実績を活かし、試験工程の立ち上げをリード</li>
+                                </ul>
+                            </div>
+
+                            <!-- JavaScript：クリックで表示/非表示切り替え -->
+                            <script>
+                                function toggleDetail(id) {
+                                const el = document.getElementById(id);
+                                el.style.display = (el.style.display === 'none' || el.style.display === '') ? 'block' : 'none';
+                                }
+                            </script>
+                                </div>
+                            </div>
+                            <!-- portfolio filter close -->
+                        </div>
+                    </div>
+                </section>
+                <!-- section close -->
+
+                <div id="loader-area">
+                    <div class="container">
+                        <div class="project-load"></div>
+                    </div>
+                </div>
+
+                <section id="section-blog" class="text-light" data-bgcolor="#008477">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Our Blog</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="bloglist item">
+                                    <div class="post-content">
+                                        <div class="post-image">
+                                            <img alt="" src="images/news/1.jpg" />
+                                            <div class="post-info">
+                                                <div class="inner"><span class="post-date">10 hours ago</span> <span class="post-author">Oscar Helman</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="post-text">
+                                            <h4><a href="#">Better User Interface</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="bloglist item">
+                                    <div class="post-content">
+                                        <div class="post-image">
+                                            <img alt="" src="images/news/2.jpg" />
+                                            <div class="post-info">
+                                                <div class="inner"><span class="post-date">10 hours ago</span> <span class="post-author">Oscar Helman</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="post-text">
+                                            <h4><a href="#">Experts Web Design Tips</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="bloglist item">
+                                    <div class="post-content">
+                                        <div class="post-image">
+                                            <img alt="" src="images/news/3.jpg" />
+                                            <div class="post-info">
+                                                <div class="inner"><span class="post-date">10 hours ago</span> <span class="post-author">Oscar Helman</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="post-text">
+                                            <h4><a href="#">Importance Of Web Design</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- section begin -->
+                <section id="section-contact" class="no-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Contact Us</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form name="contactForm" id="contact_form" class="row form-default" method="post" action="email.php">
+                            <div class="col-md-6">
+                                <div class="field-set">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" />
+                                    <div class="line-fx"></div>
+                                </div>
+
+                                <div class="field-set">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" />
+                                    <div class="line-fx"></div>
+                                </div>
+
+                                <div class="field-set">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" />
+                                    <div class="line-fx"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="field-set">
+                                    <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+                                    <div class="line-fx"></div>
+                                </div>
+                            </div>
+
+                            <div class="spacer-single"></div>
+
+                            <div class="col-md-12 text-center">
+                                <div id="submit">
+                                    <input type="submit" id="send_message" value="Submit Form" class="btn btn-custom color-2" />
+                                </div>
+                                <div id="mail_success" class="success">Your message has been sent successfully.</div>
+                                <div id="mail_fail" class="error">Sorry, error occured this time sending your message.</div>
+                            </div>
+                        </form>
+
+                        <div class="spacer-double"></div>
+
+                        <div class="row text-center wow fadeInUp">
+                            <div class="col-md-4">
+                                <div class="wm-1"></div>
+                                <i class="icon_mobile id-color size40 mb20"></i>
+                                <h6 class="id-color">Call Us</h6>
+                                <p>(208) 333 9296</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="wm-1"></div>
+                                <i class="icon_house_alt id-color size40 mb20"></i>
+                                <h6 class="id-color">Visit Office</h6>
+                                <p>Collins Street West, London, UK</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="wm-1"></div>
+                                <i class="icon_mail_alt id-color size40 mb20"></i>
+                                <h6 class="id-color">Email Us</h6>
+                                <p>contact@jess-template.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- content close -->
+
+            <!-- footer begin -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 sm-text-center mb-sm-30">
+                            &copy; Copyright 2023 - Jess by Designesia
+                        </div>
+
+                        <div class="col-md-6 text-md-right text-sm-left">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer close -->
+
+            <a href="#" id="back-to-top"></a>
+
+            <div id="preloader">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Javascript Files
+    ================================================== -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/validation.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/enquire.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/designesia.js"></script>
+        <script>
+            function toggleDetail(id) {
+                const el = document.getElementById(id);
+                el.style.display = (el.style.display === 'none' || el.style.display === '') ? 'block' : 'none';
+            }
+        </script>
+<style>
+    #gaia-detail {
+      position: relative !important;
+      z-index: 9999 !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      pointer-events: auto !important;
+      color: #000 !important;
+      background-color: #fff !important;
+    }
+</style>
+    </body>
+</html>
